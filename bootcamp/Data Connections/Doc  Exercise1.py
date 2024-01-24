@@ -3,7 +3,7 @@ from langchain.prompts import ChatPromptTemplate,  HumanMessagePromptTemplate
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import WikipediaLoader
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 
 
 def answer_question_about(person_name, question):
