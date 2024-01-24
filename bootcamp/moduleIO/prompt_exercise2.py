@@ -6,7 +6,7 @@ from langchain.output_parsers import DatetimeOutputParser
 from langchain.chat_models import ChatOpenAI
 import os
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 
 
 class HistoryQuiz():
