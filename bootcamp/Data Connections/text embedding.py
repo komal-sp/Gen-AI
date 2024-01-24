@@ -2,7 +2,7 @@ import os
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.document_loaders import CSVLoader
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 embeddings = OpenAIEmbeddings()
 
 text = "This is some normal string that I want to embed as a vector"
