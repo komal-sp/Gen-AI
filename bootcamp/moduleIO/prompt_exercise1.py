@@ -7,7 +7,7 @@ from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, H
 # Remember that you should also decide on a system prompt. The end function will just be a nice wrapper on top of all
 # the previous LangChain components we've discussed earlier.
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 
 
 def travel_idea(interest, budget):
