@@ -3,7 +3,7 @@ from langchain.prompts import PromptTemplate, load_prompt
 from langchain.chat_models import ChatOpenAI
 
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 model = ChatOpenAI(openai_api_key=OPENAI_API_KEY)
 
 template = "Tell me a fact about {planet}"
