@@ -4,7 +4,7 @@ from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 import pickle
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY)
 memory = ConversationBufferMemory()
 conversation = ConversationChain(llm=llm, memory=memory, verbose=True)
