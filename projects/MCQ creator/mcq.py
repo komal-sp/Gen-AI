@@ -18,8 +18,8 @@ from langchain_community.vectorstores import Pinecone
 from langchain_community.llms import OpenAI
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
-HUGGINGFACEHUB_API = os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
+HUGGINGFACEHUB_API = os.environ['HUGGINGFACEHUB_API_TOKEN'] = ""
 
 
 # Load Documents :loads pdf files available in directory with pypdf
