@@ -5,7 +5,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.output_parsers import PydanticOutputParser
 from pydantic import BaseModel, Field
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 model = ChatOpenAI(openai_api_key=OPENAI_API_KEY)
 
 
