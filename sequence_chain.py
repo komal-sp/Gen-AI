@@ -2,7 +2,7 @@ import os
 from langchain import OpenAI, LLMChain, PromptTemplate
 from langchain.chains import SimpleSequentialChain
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ""
 
 llm = OpenAI(temperature=0)
 template = "What is a good name for a company that makes {product}?"
