@@ -1,7 +1,7 @@
 import os
 from langchain.llms import HuggingFaceHub
 
-HUGGINGFACEHUB_API_TOKEN = os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+HUGGINGFACEHUB_API_TOKEN = os.environ['HUGGINGFACEHUB_API_TOKEN'] = ""
 llm = HuggingFaceHub(huggingfacehub_api_token=HUGGINGFACEHUB_API_TOKEN)
 
 
