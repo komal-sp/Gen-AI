@@ -1,7 +1,7 @@
 import os
 from langchain.text_splitter import CharacterTextSplitter
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 
 with open('some_data/FDR_State_of_Union_1944.txt') as file:
     speech_text = file.read()
