@@ -6,7 +6,7 @@ from langchain.chains.router.multi_prompt import MULTI_PROMPT_ROUTER_TEMPLATE
 from langchain.prompts import PromptTemplate
 from langchain.chains.router.llm_router import LLMRouterChain, RouterOutputParser
 from langchain.chains.router import MultiPromptChain
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY)
 
 # Student ask Physics
