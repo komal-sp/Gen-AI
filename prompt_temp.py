@@ -3,7 +3,7 @@ from langchain.llms import OpenAI
 from langchain.chains import LLMChain
 import os
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ""
 
 template = "You are naming consultant for new companies. What is good name for a {company} that makes {product}?"
 
