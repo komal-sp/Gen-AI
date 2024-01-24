@@ -9,7 +9,7 @@ from langchain.chains.conversation.memory import (ConversationBufferMemory,
 
                                                   )
 
-# OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+# OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "OPENAI_API_KEY"
 if 'conversation' not in st.session_state:
     st.session_state['conversation'] = None
 if 'messages' not in st.session_state:
