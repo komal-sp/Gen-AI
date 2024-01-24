@@ -2,7 +2,7 @@ import os
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts.chat import AIMessagePromptTemplate, HumanMessagePromptTemplate, SystemMessagePromptTemplate, ChatPromptTemplate
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 chat = ChatOpenAI(openai_api_key=OPENAI_API_KEY)
 
 # AI BOT LEGAL --> Simple terms
