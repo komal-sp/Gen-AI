@@ -1,7 +1,7 @@
 import os
 import openai
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ""
 # print(os.environ.get('OPENAI_API_KEY'))
 
 template = 'Give me two reasons to learn OpenAI API with python?'
