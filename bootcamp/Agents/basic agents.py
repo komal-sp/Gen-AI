@@ -3,7 +3,7 @@ from langchain.agents import load_tools, initialize_agent, AgentType
 from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
 
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = "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"
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY'] = ""
 llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, temperature=0)
 tools = load_tools(["llm-math"], llm=llm)
 # print(type(tools))
