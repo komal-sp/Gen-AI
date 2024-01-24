@@ -1,5 +1,5 @@
 import os
 
-HUGGINGFACEHUB_API = "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"
+HUGGINGFACEHUB_API = ""
 my_secret = os.environ[HUGGINGFACEHUB_API]
 
